@@ -3,11 +3,11 @@ class Palmyra < Formula
   homepage "https://github.com/appunite/Palmyra"
   url "https://github.com/appunite/Palmyra",
     :using => :git,
-    :tag => "0.1.3",
-    :revision => "e72c620c89699b88b4d0275a3a4a91e5af5384c2"
+    :tag => "0.1.4",
+    :revision => "9fe6d9702b4c37e5dcf6a5b43737302d7fa39de8"
   head "https://github.com/appunite/Palmyra.git"
 
-  depends_on :xcode => ["11.0", :build]
+  depends_on :xcode => ["14.2", :build]
 
   def install
     system "make", "install", "prefix=#{prefix}"
