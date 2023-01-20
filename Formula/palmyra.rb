@@ -3,8 +3,8 @@ class Palmyra < Formula
   homepage "https://github.com/appunite/Palmyra"
   url "https://github.com/appunite/Palmyra",
     :using => :git,
-    :tag => "0.1.4",
-    :revision => "9fe6d9702b4c37e5dcf6a5b43737302d7fa39de8"
+    :tag => "0.1.5",
+    :revision => "b73742d3273bb4ce15612797b77bc91c08d698a6"
   head "https://github.com/appunite/Palmyra.git"
 
   depends_on :xcode => ["14.2", :build]
